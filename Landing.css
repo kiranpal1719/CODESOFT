@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: linear-gradient(90deg, #e7d0e2,#c38a8a);
+  color: #333;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+  background: linear-gradient(90deg,#ff5f6d,#ffc371);
+  color: white;
+  padding: 20px 0;
+}
+
+header .logo{
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 10px;
+
+}
+.hero .container h2{
+  font-size: 50px;
+}
+
+header nav{
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+header nav a{
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover{
+  color: #222;
+}
+
+.hero{
+  background: linear-gradient(to right,#8360c3,#2ebf91);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2{
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  background: white;
+  color: #2ebf91;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.btn:hover{
+  background: #eee;
+}
+
+.features{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature{
+  flex: 1;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 280px;
+}
+
+.red{
+  background: #ff6f61;
+}
+
+.blue{
+  background: #4a90e2;
+}
+
+.green{
+  background: #2ecc71;
+}
+
+
+
+footer{
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
